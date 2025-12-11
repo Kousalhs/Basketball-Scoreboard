@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        
+
+
+        <title>Basketball Scoreboard</title>
+
+        
+    </head>
+    <body>
+        
+        <div class="container">
+            <div class="home">
+                <h3>HOME</h3>
+                <div class="scoreboard">
+                    <h2 id="home-score">0</h2>
+                </div>
+                <div class="buttons">
+                    <button class="plusOne-button" id="home-addScore-1">+1</button>
+                    <button class="plusTwo-button" id="home-addScore-2">+2</button>
+                    <button class="plusThree-button" id="home-addScore-3">+3</button>
+                </div>
+                <div class="buttons">
+                    <button class="minusOne-button" id="home-removeScore-1">-1</button>
+                    <button class="minusTwo-button" id="home-removeScore-2">-2</button>
+                    <button class="minusThree-button" id="home-removeScore-3">-3</button>
+                </div>
+                <div class="buttons" id="reset-button">
+                    <button class="reset-button" id="home-score-reset">RESET</button> 
+                </div>
+            </div>
+
+            <div class="new-game-container">
+                <button id="new-game-btn" class="new-game-button">NEW GAME</button>
+            </div>
+
+            
+            
+            <div class="guest">
+                <h3>GUEST</h3>
+                <div class="scoreboard">
+                    <h2 id="guest-score">0</h2>
+                </div>
+                <div class="buttons">
+                    <button class="plusOne-button" id="guest-addScore-1">+1</button>
+                    <button class="plusTwo-button" id="guest-addScore-2">+2</button>
+                    <button class="plusThree-button" id="guest-addScore-3">+3</button> 
+                </div>
+                <div class="buttons">
+                    <button class="minusOne-button" id="guest-removeScore-1">-1</button>
+                    <button class="minusTwo-button" id="guest-removeScore-2">-2</button>
+                    <button class="minusThree-button" id="guest-removeScore-3">-3</button>
+                </div>
+                <div class="buttons" id="reset-button">
+                    <button class="reset-button" id="guest-score-reset">RESET</button> 
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
