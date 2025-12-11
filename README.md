@@ -7,4 +7,4 @@ My first project using Vanilla Javascript combined with HTML and CSS from previo
 - CSS Flexbox
 - Figma to code
 
-It’s live right here:https://gkbasketballscoreboard.netlify.app/ 🎉
+It’s live right here: https://gkbasketballscoreboard.netlify.app/ 🎉
