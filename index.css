@@ -31,7 +31,7 @@ h2 {
     width: 10em;
     padding: 4em;
     flex-shrink: 0;
-    border: 1px solid white;
+    /*border: 1px solid white;*/
 }
 
 .scoreboard {
